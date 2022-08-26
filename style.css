@@ -3,14 +3,24 @@
 }
 
 body {
-  margin: 20px 0 0 0;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 #menu-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 0 20px 0;
+  margin: 0;
+  height: 90px;
+  width: 100vw;
 }
 
 #menu-1-2 {
@@ -91,6 +101,7 @@ body {
   justify-content: center;
   background: rgb(231, 0, 38);
   height: 100px;
+  width: 100vw;
   box-shadow: 0 6px 10px #b1b1b1;
 }
 
@@ -145,8 +156,8 @@ body {
   height: 20px;
 }
 
-main {
-  margin: 20px 0 0 0;
+#cover,
+#garantia {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -154,12 +165,25 @@ main {
 }
 
 #cover img {
-  height: 350px;
-  width: 1000px;
+  margin: 210px 0 0 0;
+  height: 400px;
+  width: 1146px;
   border-radius: 20px;
   margin-bottom: 15px;
 }
 
-#garantia{
-  width: 1000px;
+#garantia img {
+  width: 1146px;
+}
+
+#card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 100px 0 100px;
+}
+
+.card-itens img {
+  height: 200px;
+  width: 350px;
 }
